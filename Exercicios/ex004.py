@@ -1,0 +1,10 @@
+a = input ('\33[34m digite algo \33[m')
+print ('o tipo primitivo desse valor e ',type (a) )
+print ('so tem espaços',a.isspace())
+print ('e um numero' , a.isnumeric())
+print('E alfabeto' , a.isalpha())
+print('E alfanumerico',a.isalnum())
+print ('Esta em maiuscula',a.isupper())
+print ('Esta em minuscula',a.islower())
+print ('ele e capitalizado', a.istitle())
+
